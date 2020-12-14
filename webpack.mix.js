@@ -64,6 +64,11 @@ module.exports = function (mix) {
     );
 
     mix.copyDirectory(
+        'vendor/arbory/arbory/resources/assets/fonts/',
+        'public/arbory/fonts/'
+    );
+
+    mix.copyDirectory(
         'vendor/unisharp/laravel-filemanager/public/',
         'public/arbory/laravel-filemanager/'
     );
