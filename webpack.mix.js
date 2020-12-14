@@ -26,6 +26,10 @@ module.exports = function (mix) {
 
     mix.js(
         'vendor/arbory/arbory/resources/assets/js/include/**/*.js',
+        'js/includes.js'
+    );
+
+    mix.js('vendor/arbory/arbory/resources/assets/js/application.js',
         'js/application.js'
     );
 
