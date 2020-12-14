@@ -50,27 +50,27 @@ module.exports = function (mix) {
 
     mix.copyDirectory(
         'node_modules/ckeditor/',
-        'public/arbory/ckeditor/'
+        'ckeditor/'
     );
 
     mix.copyDirectory(
         'vendor/arbory/arbory/resources/assets/js/lib/ckeditor/plugins/',
-        'public/arbory/ckeditor/plugins/'
+        'plugins/'
     );
 
     mix.copyDirectory(
         'vendor/arbory/arbory/resources/assets/images/',
-        'public/arbory/images/'
+        'images/'
     );
 
     mix.copyDirectory(
         'vendor/arbory/arbory/resources/assets/fonts/',
-        'public/arbory/fonts/'
+        'fonts/'
     );
 
     mix.copyDirectory(
         'vendor/unisharp/laravel-filemanager/public/',
-        'public/arbory/laravel-filemanager/'
+        'laravel-filemanager/'
     );
 
     mix.version();
