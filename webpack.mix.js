@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = function (mix) {
 
-    mix.setPublicPath('public/arbory');
+    mix.setPublicPath('public/vendor/arbory');
     mix.webpackConfig({
         resolve: {
             symlinks: false
